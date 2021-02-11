@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<image schemaversion="6.1" name="POS_Image_Graphical6">
+<image schemaversion="6.2" name="POS_Image_Graphical6">
     <description type="system">
-        <author>Admin User</author>
-        <contact>noemail@example.com</contact>
-        <specification>SUSE Linux Enterprise 12 SP3 JeOS</specification>
+        <author>Patrick</author>
+        <contact>patrick.swartz@suse.com</contact>
+        <specification>SUSE Linux Enterprise 12 SP5</specification>
     </description>
     <preferences>
-        <version>6.0.0</version>
+        <version>6.0.8</version>
         <packagemanager>zypper</packagemanager>
         <bootsplash-theme>SLE</bootsplash-theme>
         <bootloader-theme>SLE</bootloader-theme>
 
         <locale>en_US</locale>
         <keytable>us.map.gz</keytable>
-        <timezone>Europe/Berlin</timezone>
+        <timezone>America/Central</timezone>
         <hwclock>utc</hwclock>
 
         <rpm-excludedocs>true</rpm-excludedocs>
